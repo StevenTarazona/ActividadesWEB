@@ -10,7 +10,7 @@ body {
 .card,
 footer,
 .navbar-custom {
-  background-color: #2a2a2a;
+  background-color: #2E4057; /*cambio de color porque no se veia muy bien en solo negro y gris*/ 
   color: lightgray;
 }
 
@@ -45,7 +45,7 @@ hr {
 .link-unstyled:hover,
 .link-unstyled:active {
   text-decoration: none; 
-  color: lightgray;
+  color: black; /*cambio de color porque no se veia con el fondo*/
 }
 
 .card-header .fa {
@@ -65,4 +65,13 @@ hr {
   position:absolute;
   left:0px;
   top:0px;
+}
+
+.card-header { /* cambio de estilo y color para que resalte*/
+  background-color: white;
+  color: black
+
+}
+h5{
+  color:black
 }
